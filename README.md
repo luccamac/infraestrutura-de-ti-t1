@@ -44,6 +44,7 @@ Successfully built 4379c517d8cb
 Successfully tagged luccamac/hello-world-java-spring:latest
 ```
 
+## Execução da Imagem
 Após isso, rodou-se a imagem e um `docker ps` para validar se o container estava em execução.
 
 ```
@@ -55,6 +56,7 @@ CONTAINER ID   IMAGE                              COMMAND                  CREAT
 9ac63ed77eae   luccamac/hello-world-java-spring   "java -jar /hello-wo…"   6 seconds ago   Up 5 seconds   0.0.0.0:56060->56060/tcp, :::56060->56060/tcp   hello-world-java
 ```
 
+## Validação da Imagem
 Logo, pode-se executar um comando cURL para verificar se a requisição estava sendo processada.
 
 ```
